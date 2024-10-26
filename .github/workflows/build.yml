@@ -51,7 +51,7 @@ jobs:
       - name: Free Disk Space (Ubuntu)
         uses: jlumbroso/free-disk-space@main
         with:
-          tool-cache: true
+          swap-storage: false
 
       - name: Init Env
         env:
